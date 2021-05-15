@@ -6,6 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 /**
  * @author Filip Jirsák
  */
+
+// Anotace cele tridy @Controller, metody @GetMapping , parametry v metodach @ModelAtribute
+
 @Controller
 public class CalendarController {
   @GetMapping("/")
